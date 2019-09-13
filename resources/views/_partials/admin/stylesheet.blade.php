@@ -6,6 +6,7 @@
 	<link href="{{ asset('asset/assets/css/layout.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('asset/assets/css/components.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('asset/assets/css/colors.min.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{asset('/css/parsley.css')}}">
 	<!-- /global stylesheets -->
 
 	@stack('admin.css')

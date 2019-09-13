@@ -19,14 +19,14 @@
     </script>
 </head>
 <body class="navbar-top">
-@if (Auth::guard()->check() || Auth::guard('web')->check())
+@if (Auth::guard()->check())
     <!-- Main navbar -->
     @include('_partials.member.main_navbar')
     <!-- /main navbar -->
 @endif
 <!-- Page content -->
 <div class="page-content ">
-@if (Auth::guard()->check() || Auth::guard('web')->check())
+@if (Auth::guard()->check())
     <!-- Main sidebar -->
         <div class="sidebar sidebar-dark sidebar-main sidebar-fixed sidebar-expand-md noprint">
             <!-- Sidebar mobile toggler -->

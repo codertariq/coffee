@@ -11,5 +11,85 @@
 				</span>
 			</a>
 		</li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' acive' : '' }}">
+                <i class="icon-stats-growth2"></i>
+                <span>
+					{{_('Traffic Sourse')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' acive' : '' }}">
+                <i class="icon-chart"></i>
+                <span>
+					{{_('Sales')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' acive' : '' }}">
+                <i class="icon-sort-time-asc"></i>
+                <span>
+					{{_('Delivery')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' acive' : '' }}">
+                <i class="icon-comments"></i>
+                <span>
+					{{_('Message')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' acive' : '' }}">
+                <i class="icon-user"></i>
+                <span>
+					{{_('Member')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.coffee.index')}}" class="nav-link{{ (Request::is('admin/coffee*') ) ? ' acive' : '' }}">
+                <i class="icon-play"></i>
+                <span>
+					{{__('Coffee')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.package.index')}}" class="nav-link{{ (Request::is('admin/package*') ) ? ' acive' : '' }}">
+                <i class="icon-play"></i>
+                <span>
+					{{__('Packages')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' actie' : '' }}">
+                <i class="icon-user-check"></i>
+                <span>
+					{{__('User')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' actve' : '' }}">
+                <i class="icon-hat"></i>
+                <span>
+					{{_('Role')}}
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('admin.dashboard')}}" class="nav-link{{ (Request::is('admin') OR Request::is('admin/dashboard')) ? ' actve' : '' }}">
+                <i class="icon-paste"></i>
+                <span>
+					{{_('Pages')}}
+				</span>
+            </a>
+        </li>
 	</ul>
 </div>

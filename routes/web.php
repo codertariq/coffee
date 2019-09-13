@@ -29,10 +29,13 @@ Route::get('admin/password/reset/{token}', 'Admin\Auth\ResetPasswordController@s
 Route::post('admin/password/reset', 'Admin\Auth\ResetPasswordController@reset')->name('password.update');
 
 
-Route::group(['prefix' => 'admin', 'middleware' => 'auth:admin'], function(){
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.', 'middleware' => 'auth:admin'], function(){
    Route::get('/', function(){
        return view('admin.dashboard');
-   })->name('admin.dashboard');
+   })->name('dashboard');
+
+   Route::resource('package', 'PackageController');
+   Route::resource('coffee', 'CoffeeController');
 });
 
 

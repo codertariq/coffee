@@ -8,6 +8,7 @@
 	<script src="{{ asset('asset/global_assets/js/plugins/notifications/pnotify.min.js') }}"></script>
 	<script src="{{ asset('asset/global_assets/js/plugins/notifications/sweetalert.min.js') }}"></script>
 	<script src="{{ asset('asset/global_assets/js/plugins/forms/selects/select2.min.js') }}"></script>
+	<script src="{{ asset('js/parsley.js') }}"></script>
 
     <!-- Theme JS files -->
     <script src="{{ asset('asset/global_assets/js/plugins/visualization/d3/d3.min.js')}}"></script>
@@ -18,6 +19,7 @@
     <script src="{{ asset('asset/global_assets/js/plugins/pickers/daterangepicker.js')}}"></script>
 
 	<script src="{{ asset('asset/assets/js/app.js') }}"></script>
+	<script src="{{ asset('js/main.js') }}"></script>
 	<script src="{{ asset('asset/global_assets/js/plugins/forms/styling/uniform.min.js') }}"></script>
 
 

@@ -7,9 +7,49 @@
 			<a href="{{route('home')}}" class="nav-link{{ Request::is('home')  ? ' active' : '' }}">
 				<i class="icon-home4"></i>
 				<span>
-					ড্যাশবোর্ড
+					Dashboard
 				</span>
 			</a>
 		</li>
+        <li class="nav-item">
+            <a href="{{route('home')}}" class="nav-link{{ Request::is('home')  ? ' actve' : '' }}">
+                <i class="icon-play"></i>
+                <span>
+					Subscription
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('home')}}" class="nav-link{{ Request::is('home')  ? ' actve' : '' }}">
+                <i class="icon-user"></i>
+                <span>
+					Profile
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('home')}}" class="nav-link{{ Request::is('home')  ? ' actve' : '' }}">
+                <i class="icon-comments"></i>
+                <span>
+					Message
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('home')}}" class="nav-link{{ Request::is('home')  ? ' actve' : '' }}">
+                <i class="icon-coin-dollar"></i>
+                <span>
+					Payment
+				</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{route('home')}}" class="nav-link{{ Request::is('home')  ? ' actve' : '' }}">
+                <i class="icon-history"></i>
+                <span>
+					History
+				</span>
+            </a>
+        </li>
 	</ul>
 </div>
